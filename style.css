@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
+.sticky-header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 header {
     display: flex;
     margin: 0 auto;
@@ -9,6 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 5px;
+    background-color: white;
 }
 img#header-img {
     height: 45px;
@@ -36,7 +43,7 @@ div.title {
 }
 .title .text {
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     left: 0;
     right: 0;
     top: 25%;
